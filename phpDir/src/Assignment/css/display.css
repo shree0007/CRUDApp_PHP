@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgb(125, 125, 235), rgb(141, 206, 230));
+    font-size: medium;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: rgb(2, 76, 95);
+    color: white;
+    width: 100%;
+}
+
+.logo img {
+    height: 150px;
+    width: 150px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.nav {
+    margin-right: 1rem;
+    display: flex;
+
+
+}
+
+.nav li {
+    list-style: none;
+    margin: 1rem;
+
+
+}
+
+.nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav li a:hover {
+    color: orangered;
+}
+
+
+.container {
+    width: 480px;
+    margin: auto;
+
+}
+
+.container p {
+    text-align: center;
+
+}
+
+h2 {
+    text-align: center;
+    margin: 3rem 0 3rem 0.2rem;
+    color: rgb(67, 12, 12);
+
+}
+
+.table {
+    border: 4px solid brown;
+    border-radius: 8px;
+
+}
+
+
+.heading-row {
+    background-color: rgb(80, 107, 216);
+    color: white;
+
+}
+
+th {
+    padding: 1rem;
+}
+
+td {
+    padding: 0.5rem 1rem;
+    border: 0.2px solid gray;
+    background-color: white;
+}
+
+.delete-btn {
+    background-color: red;
+    border-radius: 5px;
+    border: none;
+    padding: 0.3rem;
+
+}
+
+.update-btn {
+    background-color: rgb(31, 103, 70);
+    border-radius: 5px;
+    border: none;
+    padding: 0.3rem;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem;
+}

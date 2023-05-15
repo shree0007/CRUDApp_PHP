@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgb(125, 125, 235), rgb(141, 206, 230));
+    font-size: medium;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: rgb(2, 76, 95);
+    color: white;
+    width: 100%;
+}
+
+.logo img {
+    height: 150px;
+    width: 150px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.nav {
+    margin-right: 1rem;
+    display: flex;
+
+
+}
+
+.nav li {
+    list-style: none;
+    margin: 1rem;
+
+
+}
+
+.nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav li a:hover {
+    color: orangered;
+}
+
+.card-container {
+    width: 400px;
+    margin: auto;
+    border: solid 5px brown;
+    margin-top: 5rem;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+
+.card {
+    width: 300px;
+    margin: auto;
+}
+
+h2 {
+    margin-bottom: 3rem;
+    color: rgb(67, 12, 12);
+}
+
+input {
+    width: 200px;
+    margin-left: 0.2rem;
+    padding: 0.3rem;
+}
+
+.input-password {
+    width: 200px;
+    margin-left: 0.4rem;
+}
+
+.btn {
+    margin-left: 8rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 0.4rem;
+}
+
+.msg {
+    width: 450px;
+    margin: auto;
+    margin-top: 2rem;
+    text-align: center;
+
+}
